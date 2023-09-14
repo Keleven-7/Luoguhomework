@@ -4,7 +4,7 @@ import bs4
 
 baseUrl = "https://www.luogu.com.cn/problem/P"
 savePath = "D:\编程练习\洛谷爬虫\problems//"
-minn = 1995
+minn = 1000
 maxn = 2000             #最大题号
 
 def main():

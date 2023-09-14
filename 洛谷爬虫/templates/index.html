@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>洛谷题目爬虫</title>
+</head>
+<body>
+    <h1>洛谷题目爬虫</h1>
+    <form action="/" method="POST">
+        <label for="difficulty">选择题目难度：</label>
+        <select name="difficulty" id="difficulty">
+            <option value="入门">入门</option>
+            <option value="普及-">普及-</option>
+            <option value="普及或提高-">普及/提高-</option>
+            <option value="普及+或提高">普及+/提高</option>
+            <option value="提高+或省选-">提高+/省选-</option>
+            <option value="省选或NOI-">省选/NOI-</option>
+            <option value="NOI或NOI+或CTSC">NOI/NOI+/CTSC</option>
+        </select>
+        <br>
+        <label for="keywords">关键词：</label>
+        <input type="text" name="keywords" id="keywords">
+        <br>
+        <input type="submit" value="开始爬取">
+    </form>
+</body>
+</html>
+
